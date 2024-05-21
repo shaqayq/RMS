@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <title>   ریاست تحقیق | وزارت معارف افغانستان </title>
+        <link rel="stylesheet" href="home/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="home/css/bootstrap-rtl.css" >
+        <link rel="stylesheet" href="home/css/style.css" >
+        <link rel="stylesheet" href="dist/css/custom-style.css">
+        <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+        <script src="js/all.min.js"></script>
+        <link rel="stylesheet" href="css/ionicons.min.css">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+         <style>
+             .bg-primary {
+                 background-color: #063b75 !important;
+             }
+             #particles-js1{
+                 max-height: 0px;
+             }
+           
+            .slider {
+            width: 100%;
+            height: 591px;
+            overflow: hidden;
+            position: relative;
+            }
+
+            .slider img {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+            }
+
+            .slider img.active {
+            opacity: 1;
+            }
+
+
+         </style>
+    </head>
+    <body >
+    <div id="particles-js1"></div>
+
+    <header class="blog-header py-3"  style="background: #0161ac;">
+        <div class="container bg-logo" >
+            <div class="row text-center" >
+                <div class="col-md-2 float-right" >
+                    <img src="dist/img/logo.png" class="logo" style="height: 100px;">
+                </div>
+                <div class="col-md-8" >
+                   <h5 style="color:#fff">وزارت معارف امارت اسلامی افغانستان<br> معینیت  تضمین کیفیت <br> ریاست تحقیق</h5>
+                </div>
+                <div class="col-md-2 float-left" >
+                    <img src="dist/img/13.png" class="logo" style="height: 100px; ">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-md navbar-dark  bg-primary">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                    <a class="nav-link" href="welcomePage.html"><i class="fa fa-home"></i>صفحه اصلی </a>
+                </li>
+                <li style="border-left: 1px solid; color: #fff;"></li>
+                <li class="nav-item">
+                    <a class="nav-link " href="addrequest.html"><i class="nav-icon fa fa-chart-line"></i>در خواستی </a>
+                </li>
+                <li style="border-left: 1px solid; color: #fff;"></li>
+                <li class="nav-item">
+                    <a class="nav-link " href="addrequest.html"><i class="nav-icon fa fa-chart-line"></i> درباره ما </a>
+                </li>
+                <li style="border-left: 1px solid; color: #fff;"></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link" data-toggle="dropdown" href="#">
+                     مقالات <i class="fa fa-angle-down"></i>
+                     
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
+                    <span href="#" class="dropdown-item">
+                        <!-- Message Start -->
+                        <div class="media">
+                          مقالات ریاست 
+                        </div>
+                        <!-- Message End -->
+                      </span>
+                      <div class="dropdown-divider"></div>
+                      <span href="#" class="dropdown-item">
+                        <!-- Message Start -->
+                       آموزش روش تحقیق
+                        <!-- Message End -->
+                      </span>
+                      
+                     
+                    </div>
+                  </li>
+                  <li style="border-left: 1px solid; color: #fff;"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reply.html"> پاسخگویی به مشکلات  </a>
+                </li>
+
+                  <li style="border-left: 1px solid; color: #fff;"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html"><i class="fa fa-user"></i> ورود به سیستم</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+           
+        </ol>
+        <div class="slider">
+            <img src="dist/img/1.jpg" alt="Image 1">
+            <img src="dist/img/2.jpg" alt="Image 2">
+            
+            <img src="dist/img/3.jpg" alt="Image 5">
+          </div>
+          
+        
+          
+
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <script src="home/js/jquery-3.3.1.slim.min.js" ></script>
+    <script src="home/js/popper.min.js" ></script>
+    <script src="home/js/bootstrap.min.js" ></script>
+    <script src="dist/login/particles.js" ></script>
+
+    <script>
+        particlesJS('particles-js1',
+
+            {
+                "particles": {
+                    "number": {
+                        "value": 200,
+                        "density": {
+                            "enable": true,
+                            "value_area": 800
+                        }
+                    },
+                    "color": {
+                        "value": "#ffffff"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 0,
+                            "color": "#000000"
+                        },
+                        "polygon": {
+                            "nb_sides": 5
+                        },
+                        "image": {
+                            "src": "img/github.svg",
+                            "width": 100,
+                            "height": 100
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": false,
+                        "anim": {
+                            "enable": false,
+                            "speed": 1,
+                            "opacity_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "size": {
+                        "value": 5,
+                        "random": true,
+                        "anim": {
+                            "enable": false,
+                            "speed": 40,
+                            "size_min": 0.1,
+                            "sync": false
+                        }
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#ffffff",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 6,
+                        "direction": "none",
+                        "random": false,
+                        "straight": false,
+                        "out_mode": "out",
+                        "attract": {
+                            "enable": false,
+                            "rotateX": 600,
+                            "rotateY": 1200
+                        }
+                    }
+                },
+                "interactivity": {
+                    "detect_on": "canvas",
+                    "events": {
+                        "onhover": {
+                            "enable": true,
+                            "mode": "repulse"
+                        },
+                        "onclick": {
+                            "enable": true,
+                            "mode": "push"
+                        },
+                        "resize": true
+                    },
+                    "modes": {
+                        "grab": {
+                            "distance": 400,
+                            "line_linked": {
+                                "opacity": 1
+                            }
+                        },
+                        "bubble": {
+                            "distance": 400,
+                            "size": 40,
+                            "duration": 2,
+                            "opacity": 8,
+                            "speed": 3
+                        },
+                        "repulse": {
+                            "distance": 200
+                        },
+                        "push": {
+                            "particles_nb": 4
+                        },
+                        "remove": {
+                            "particles_nb": 2
+                        }
+                    }
+                },
+                "retina_detect": true,
+                "config_demo": {
+                    "hide_card": false,
+                    "background_color": "#b61924",
+                    "background_image": "",
+                    "background_position": "50% 50%",
+                    "background_repeat": "no-repeat",
+                    "background_size": "cover"
+                }
+            }
+
+        );
+    </script>
+    <script>
+        const slider = document.querySelector('.slider');
+        const images = slider.querySelectorAll('img');
+        let current = 0;
+
+        function nextSlide() {
+        images[current].classList.remove('active');
+        current = (current + 1) % images.length;
+        images[current].classList.add('active');
+        }
+
+        setInterval(nextSlide, 5000);
+
+
+    </script>
+    </body>
+</html>

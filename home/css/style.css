@@ -1,0 +1,72 @@
+body {
+    margin: 0 auto;
+    font-family: 'Shabnam', Shabnam, Tahoma, Arial, sans-serif !important;
+    font-weight: 300;
+    direction: rtl;
+    text-align: right;
+    /*padding-top: 3rem;*/
+    /*padding-bottom: 3rem;*/
+    color: #5a5a5a;
+}
+.navbar-nav {
+    padding-right: 12px;
+
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600 !important;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 0rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 1rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 31rem;
+    background-color: #777;
+}
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 31rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+

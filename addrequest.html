@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>ریاست تحقیق | صفحه ورود</title>
+  <!-- Tell the browser to be responsive to screen width -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="plugins/iCheck/square/blue.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+  <!-- bootstrap rtl -->
+  <link rel="stylesheet" href="dist/css/bootstrap-rtl.min.css">
+  <!-- template rtl version -->
+  <link rel="stylesheet" href="dist/css/custom-style.css">
+  <link rel="stylesheet" href="dist/css/custom-style.css">
+  <link rel="stylesheet" href="dist/login/style.css">
+
+</head>
+<body class="hold-transition bg-default login-page">
+  <div id="particles-js"></div>
+
+ 
+
+<nav class="navbar navbar-expand-md navbar-dark  bg-primary">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ">
+            <li class="nav-item ">
+              <a class="nav-link" href="welcomePage.html"><i class="fa fa-home"></i>صفحه اصلی </a>
+            </li>
+            <li style="border-left: 1px solid; color: #fff;"></li>
+            <li class="nav-item">
+                <a class="nav-link " href="addrequest.html"><i class="nav-icon fa fa-chart-line"></i>در خواستی </a>
+            </li>
+            <li style="border-left: 1px solid; color: #fff;"></li>
+            <li class="nav-item">
+              <a class="nav-link " href="addrequest.html"><i class="nav-icon fa fa-chart-line"></i> درباره ما </a>
+          </li>
+          
+            <li style="border-left: 1px solid; color: #fff;"></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" data-toggle="dropdown" href="#">
+                 مقالات <i class="fa fa-angle-down"></i>
+                 
+                </a>
+                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-left">
+                <span href="#" class="dropdown-item">
+                    <!-- Message Start -->
+                    <div class="media">
+                      مقالات ریاست 
+                    </div>
+                    <!-- Message End -->
+                  </span>
+                  <div class="dropdown-divider"></div>
+                  <span href="#" class="dropdown-item">
+                    <!-- Message Start -->
+                   آموزش روش تحقیق
+                    <!-- Message End -->
+                  </span>
+                  
+                 
+                </div>
+              </li>
+              <li style="border-left: 1px solid; color: #fff;"></li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html"><i class="fa fa-user"></i> ورود به سیستم</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="requestForm" style="width: 41%;
+margin: auto; margin-top:25px">
+  
+  <!-- /.login-logo -->
+  <div class="card card-primary card-outline" >
+    <div class="card-body login-card-body">
+          <div class="login-logo">
+              <img src="dist/img/logo.png" style="width: 16%;"/>
+            </div>
+     
+
+      <form action="welcomePage.html" method="post">
+        <div class="row">
+          <div class="form-group col-6">
+            <label>عنوان درخواستی  :</label>
+          <input class="form-control" placeholder="    عنوان درخواستی را وارد کنید...">
+        </div>
+        <div class="form-group col-6">
+          <label for="exampleInputPassword1"> ولایت</label>
+          <select class="form-control" data-placeholder=":نام  ولایت تان  را انتخاب کنید"
+                  style="width: 100%;text-align: right">
+            <option> کابل  </option>
+            <option>هرات </option>
+            <option>بدخشان </option>
+            <option>مزار </option>
+            
+          </select>
+       
+      </div>
+
+         </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="form-group col-6">
+              <label>نام لیسه:</label>
+            <input class="form-control" placeholder="  نام لیسه را وارد کنید...">
+          </div>
+          <div class="form-group col-6">
+              <label>نام مدیر لیسه:</label>
+            <input class="form-control" placeholder="  نام مدیر لیسه را وارد کنید...">
+          </div>
+          </div>
+      
+           
+            <div class="form-group">
+              <label>متقاضی:</label>
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="r3" class="flat-red"> استاد
+                </label>
+                <label>
+                  <input type="radio" name="r3" class="flat-red"> مدیر
+                </label>
+                <label>
+                  <input type="radio" name="r3" class="flat-red" >  شاگرد 
+                </label>
+                <label>
+                  <input type="radio" name="r3" class="flat-red" >  والدین   
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>درخواستی  </label>
+                <textarea id="compose-textarea" class="form-control" style="height: 100px;">
+                    
+                </textarea>
+            </div>
+            <div class="form-group">
+              <div class="btn btn-default btn-file">
+                <i class="fa fa-paperclip"></i> فایل ضمیمه
+                <input type="file" name="attachment">
+              </div>
+              <p class="help-block">حداکثر 32MB</p>
+            </div>
+            <div class="col-4 float-left" >
+                <button type="submit" class="btn btn-primary btn-block  float-sm-left">ارسال درخواستی</button>
+              </div>
+          </div>
+          
+      </form>
+
+     
+      <!-- /.social-auth-links -->
+
+    
+    </div>
+    <!-- /.login-card-body -->
+  </div>
+</div>
+<!-- /.login-box -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- iCheck -->
+<script src="plugins/iCheck/icheck.min.js"></script>
+<script src="dist/login/particles.js"></script>
+<script>
+  $(function () {
+    $('input').iCheck({
+      checkboxClass: 'icheckbox_square-blue',
+      radioClass   : 'iradio_square-blue',
+      increaseArea : '20%' // optional
+    })
+  })
+</script>
+<script>
+  // ParticlesJS Config.
+  particlesJS("particles-js", {
+      "particles": {
+          "number": {
+              "value": 120,
+              "density": {
+                  "enable": true,
+                  "value_area": 700
+              }
+          },
+          "color": {
+              "value": "#ffffff"
+          },
+          "shape": {
+              "type": "circle",
+              "stroke": {
+                  "width": 0,
+                  "color": "#000000"
+              },
+              "polygon": {
+                  "nb_sides": 5
+              },
+          },
+          "opacity": {
+              "value": 0.5,
+              "random": false,
+              "anim": {
+                  "enable": false,
+                  "speed": 1,
+                  "opacity_min": 0.1,
+                  "sync": false
+              }
+          },
+          "size": {
+              "value": 3,
+              "random": true,
+              "anim": {
+                  "enable": false,
+                  "speed": 40,
+                  "size_min": 0.1,
+                  "sync": false
+              }
+          },
+          "line_linked": {
+              "enable": true,
+              "distance": 150,
+              "color": "#ffffff",
+              "opacity": 0.4,
+              "width": 1
+          },
+          "move": {
+              "enable": true,
+              "speed": 6,
+              "direction": "none",
+              "random": false,
+              "straight": false,
+              "out_mode": "out",
+              "bounce": false,
+              "attract": {
+                  "enable": false,
+                  "rotateX": 600,
+                  "rotateY": 1200
+              }
+          }
+      },
+      "interactivity": {
+          "detect_on": "canvas",
+          "events": {
+              "onhover": {
+                  "enable": true,
+                  "mode": "grab"
+              },
+              "onclick": {
+                  "enable": true,
+                  "mode": "push"
+              },
+              "resize": true
+          },
+          "modes": {
+              "grab": {
+                  "distance": 140,
+                  "line_linked": {
+                      "opacity": 1
+                  }
+              },
+              "bubble": {
+                  "distance": 400,
+                  "size": 40,
+                  "duration": 2,
+                  "opacity": 8,
+                  "speed": 3
+              },
+              "repulse": {
+                  "distance": 200,
+                  "duration": 0.4
+              },
+              "push": {
+                  "particles_nb": 4
+              },
+              "remove": {
+                  "particles_nb": 2
+              }
+          }
+      },
+      "retina_detect": true
+  });
+</script>
+</body>
+</html>
